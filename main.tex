@@ -1,0 +1,39 @@
+\documentclass[letterpaper,10pt]{report}
+\usepackage{textcomp}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{fullpage}
+\usepackage[spanish, activeacute]{babel}
+\usepackage{csquotes}
+\usepackage{url}
+\usepackage{newcent}
+\usepackage{textcomp}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{makeidx}
+\usepackage{vmargin}
+\usepackage{multirow}
+\usepackage{rotating}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{ragged2e}
+\usepackage{listings}
+\usepackage{color}
+\usepackage[hidelinks]{hyperref}
+\usepackage{natbib}
+
+\graphicspath{imagenes/}
+\makeindex
+
+\begin{document}
+	\include {portada}
+	\tableofcontents
+	\listoffigures
+	\listoftables
+	\pagenumbering{arabic}
+	\include{capitulo1}
+	\include{capitulo2}
+	\renewcommand{\bibname}{Referencias}
+	\bibliographystyle{apalike}
+	\bibliography{bibliografia}
+\end{document}
