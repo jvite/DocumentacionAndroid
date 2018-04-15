@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.6.9)  15 APR 2018 17:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.6.9)  15 APR 2018 18:19
 entering extended mode
 **./main.tex
 (main.tex
@@ -850,8 +850,9 @@ Package csquotes Info: Redefining alias 'default' -> 'spanish'.
 (main.aux (portada.aux)
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
- (capitulo1.aux) (capitulo2.aux) (capitulo3.aux)
-(capitulo4.aux) (capitulo5.aux) (capitulo6.aux))
+ (capitulos/capitulo1.aux) (capitulos/capitulo2.aux)
+(capitulos/capitulo3.aux) (capitulos/capitulo4.aux) (capitulos/capitulo5.aux)
+(capitulos/capitulo6.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
@@ -945,11 +946,11 @@ LaTeX Info: Redefining \nameref on input line 29.
 
 \openout2 = `portada.aux'.
 
- (portada.tex <logo.png, id=127, 803.0pt x 963.6pt>
-File: logo.png Graphic file (type png)
+ (portada.tex <img/logo.png, id=127, 803.0pt x 963.6pt>
+File: img/logo.png Graphic file (type png)
 
-<use logo.png>
-Package pdftex.def Info: logo.png used on input line 5.
+<use img/logo.png>
+Package pdftex.def Info: img/logo.png used on input line 5.
 (pdftex.def)             Requested size: 160.59715pt x 192.71658pt.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 22.
@@ -978,8 +979,8 @@ Package babel Info: Redefining spanish shorthand "?
  [1
 
 
-{C:/Users/Toño/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./logo.png>
-])
+{C:/Users/Toño/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./img/logo.
+png>])
 LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/pnc/b/n' tried instead on input line 31.
  (main.toc
@@ -1095,13 +1096,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.35 	\include{capitulo1}
-                          [1
+l.35 	\include{capitulos/capitulo1}
+                                    [1
 
 ]
-\openout2 = `capitulo1.aux'.
+\openout2 = `capitulos/capitulo1.aux'.
 
- (capitulo1.tex
+ (capitulos/capitulo1.tex
 Cap\'{\i }tulo 1.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 1.
@@ -1184,14 +1185,14 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.35 	\include{capitulo1}
-                          [2
+l.35 	\include{capitulos/capitulo1}
+                                    [2
 
 
 ]
-\openout2 = `capitulo2.aux'.
+\openout2 = `capitulos/capitulo2.aux'.
 
- (capitulo2.tex
+ (capitulos/capitulo2.tex
 Cap\'{\i }tulo 2.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 1.
@@ -1231,10 +1232,10 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 3.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 3.
-<img1.png, id=195, 746.03719pt x 235.63031pt>
-File: img1.png Graphic file (type png)
- <use img1.png>
-Package pdftex.def Info: img1.png used on input line 8.
+<img/img1.png, id=195, 746.03719pt x 235.63031pt>
+File: img/img1.png Graphic file (type png)
+ <use img/img1.png>
+Package pdftex.def Info: img/img1.png used on input line 8.
 (pdftex.def)             Requested size: 373.01767pt x 117.81487pt.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 18.
@@ -1288,7 +1289,7 @@ Package babel Info: Redefining spanish shorthand "?
 
 
 
- <./img1.png>]
+ <./img/img1.png>]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 32.
 Package babel Info: Redefining spanish shorthand >>
@@ -1326,11 +1327,10 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 36.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 36.
+ [4]
+\openout2 = `capitulos/capitulo3.aux'.
 
-[4]
-\openout2 = `capitulo3.aux'.
-
- (capitulo3.tex
+ (capitulos/capitulo3.tex
 Cap\'{\i }tulo 3.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 1.
@@ -1500,9 +1500,9 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 37.
  [9]
-\openout2 = `capitulo4.aux'.
+\openout2 = `capitulos/capitulo4.aux'.
 
- (capitulo4.tex
+ (capitulos/capitulo4.tex
 Cap\'{\i }tulo 4.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 1.
@@ -1588,26 +1588,26 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 10.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 10.
-<m1.png, id=227, 1422.0628pt x 695.59875pt>
-File: m1.png Graphic file (type png)
- <use m1.png>
-Package pdftex.def Info: m1.png used on input line 13.
+<img/m1.png, id=227, 1422.0628pt x 695.59875pt>
+File: img/m1.png Graphic file (type png)
+ <use img/m1.png>
+Package pdftex.def Info: img/m1.png used on input line 13.
 (pdftex.def)             Requested size: 284.40752pt x 139.11728pt.
 
-<m2.png, id=228, 1474.75969pt x 1125.45468pt>
-File: m2.png Graphic file (type png)
- <use m2.png>
-Package pdftex.def Info: m2.png used on input line 20.
+<img/m2.png, id=228, 1474.75969pt x 1125.45468pt>
+File: img/m2.png Graphic file (type png)
+ <use img/m2.png>
+Package pdftex.def Info: img/m2.png used on input line 20.
 (pdftex.def)             Requested size: 442.43132pt x 337.639pt.
 
 Overfull \hbox (14.99979pt too wide) in paragraph at lines 20--21
 [][] 
  []
 
-<m3.png, id=229, 444.132pt x 442.4895pt>
-File: m3.png Graphic file (type png)
- <use m3.png>
-Package pdftex.def Info: m3.png used on input line 27.
+<img/m3.png, id=229, 444.132pt x 442.4895pt>
+File: img/m3.png Graphic file (type png)
+ <use img/m3.png>
+Package pdftex.def Info: img/m3.png used on input line 27.
 (pdftex.def)             Requested size: 399.7151pt x 398.23686pt.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 32.
@@ -1710,7 +1710,7 @@ Package babel Info: Redefining spanish shorthand "?
 
 
 
- <./m1.png>]
+ <./img/m1.png>]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 38.
 Package babel Info: Redefining spanish shorthand >>
@@ -1735,10 +1735,10 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 38.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 38.
- [11 <./m2.png
+ [11 <./img/m2.png
 
-pdfTeX warning: pdflatex (file ./m2.png): large interlaced PNG might cause out 
-of memory (use non-interlaced PNG to fix this)
+pdfTeX warning: pdflatex (file ./img/m2.png): large interlaced PNG might cause 
+out of memory (use non-interlaced PNG to fix this)
 >]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 38.
@@ -1764,7 +1764,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 38.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 38.
- [12 <./m3.png>]
+ [12 <./img/m3.png>]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 38.
 Package babel Info: Redefining spanish shorthand >>
@@ -1790,9 +1790,9 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 38.
  [13]
-\openout2 = `capitulo5.aux'.
+\openout2 = `capitulos/capitulo5.aux'.
 
- (capitulo5.tex
+ (capitulos/capitulo5.tex
 Cap\'{\i }tulo 5.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 1.
@@ -1848,9 +1848,9 @@ Package babel Info: Redefining spanish shorthand "?
 
 
 ]
-\openout2 = `capitulo6.aux'.
+\openout2 = `capitulos/capitulo6.aux'.
 
- (capitulo6.tex
+ (capitulos/capitulo6.tex
 Cap\'{\i }tulo 6.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 1.
@@ -1963,16 +1963,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 44.
  (main.aux (portada.aux)
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
- (capitulo1.aux) (capitulo2.aux)
-(capitulo3.aux) (capitulo4.aux) (capitulo5.aux) (capitulo6.aux))
+ (capitulos/capitulo1.aux)
+(capitulos/capitulo2.aux) (capitulos/capitulo3.aux) (capitulos/capitulo4.aux)
+(capitulos/capitulo5.aux) (capitulos/capitulo6.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 44.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 44.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 1677C9837CCB198A7EC816372980A302;2145.
  ) 
 Here is how much of TeX's memory you used:
- 11181 strings out of 493328
- 162301 string characters out of 3139125
+ 11183 strings out of 493328
+ 162815 string characters out of 3139125
  305240 words of memory out of 3000000
  14438 multiletter control sequences out of 15000+200000
  44364 words of font info for 45 fonts, out of 3000000 for 9000
