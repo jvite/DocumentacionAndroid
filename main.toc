@@ -23,11 +23,10 @@
 \contentsline {section}{\numberline {4.3}Programaci'on}{15}{section.4.3}
 \contentsline {section}{\numberline {4.4}Implementaci'on}{15}{section.4.4}
 \contentsline {section}{\numberline {4.5}Cronograma}{15}{section.4.5}
-\contentsline {section}{\numberline {4.6}Pruebas}{15}{section.4.6}
-\contentsline {section}{\numberline {4.7}Mantenimiento}{15}{section.4.7}
-\contentsline {chapter}{\numberline {5}Resultados}{16}{chapter.5}
-\contentsline {section}{\numberline {5.1}Pantallas}{16}{section.5.1}
-\contentsline {chapter}{\numberline {6}Conclusi'ones}{17}{chapter.6}
-\contentsline {section}{\numberline {6.1}Juan Daniel Soto Dimas}{17}{section.6.1}
-\contentsline {section}{\numberline {6.2}Miguel 'Angel Vite Hern'andez}{17}{section.6.2}
-\contentsline {section}{\numberline {6.3}Juan Antonio Ayola Cortes}{17}{section.6.3}
+\contentsline {section}{\numberline {4.6}Pruebas}{16}{section.4.6}
+\contentsline {chapter}{\numberline {5}Resultados}{17}{chapter.5}
+\contentsline {section}{\numberline {5.1}Pantallas}{17}{section.5.1}
+\contentsline {chapter}{\numberline {6}Conclusi'ones}{18}{chapter.6}
+\contentsline {section}{\numberline {6.1}Juan Antonio Ayola Cortes}{18}{section.6.1}
+\contentsline {section}{\numberline {6.2}Juan Daniel Soto Dimas}{18}{section.6.2}
+\contentsline {section}{\numberline {6.3}Miguel 'Angel Vite Hern'andez}{18}{section.6.3}
